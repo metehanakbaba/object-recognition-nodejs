@@ -1,26 +1,22 @@
 ### Features
 
-- Built-in Nginx, PHP, MySQL, NodeJS, Python with Docker
-- Real-time process with Laravel Broadcast
+- Boilerplate for Express + Vue.JS with Typescript 
+- Built-in NodeJS, Python with Docker
 - Single Page Application with VueJS
-- Image processing queues with Redis
 - CSS preprocessor made with Syntactically Awesome Style Sheets (SASS)
-- The ImageAI Python library was used for using simple and a few lines of code.
+- The ImageAI Python library used for using simple, and a few lines of code.
 - Compatible with all major browsers (IE8+)
 
-# Object Recognation
+# Object Recognition
 
-![](https://i.ibb.co/HNqjzZg/Readme-Logos.png)
+![](https://i.ibb.co/P1RWJj9/Readme-Logos.png)
+
+![](https://img.shields.io/github/stars/metehanakbaba/Object-Recognition) ![](https://img.shields.io/github/forks/metehanakbaba/Object-Recognition) ![](https://img.shields.io/github/tag/metehanakbaba/Object-Recognition) ![](https://img.shields.io/github/release/metehanakbaba/Object-Recognition) ![](https://img.shields.io/github/issues/metehanakbaba/Object-Recognition) ![](https://img.shields.io/bower/metehanakbaba/Object-Recognition)
 
 
-![](https://img.shields.io/github/stars/metehanakbaba/Object-Recognation) ![](https://img.shields.io/github/forks/metehanakbaba/Object-Recognation) ![](https://img.shields.io/github/tag/metehanakbaba/Object-Recognation) ![](https://img.shields.io/github/release/metehanakbaba/Object-Recognation) ![](https://img.shields.io/github/issues/metehanakbaba/Object-Recognation) ![](https://img.shields.io/bower/metehanakbaba/Object-Recognation)
+## FlowChart
 
-
-**Table of Contents**
-
-[TOC]
-
-#FlowChart
+![](https://i.ibb.co/wpT4YbD/Screen-Shot-2021-02-06-at-00-10-29.png)
 
 ```flow
 st=>start: Image upload
@@ -32,5 +28,3 @@ st->op->cond
 cond(yes)->e
 cond(no)->op
 ```
-
-#End
