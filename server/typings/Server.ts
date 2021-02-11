@@ -1,6 +1,8 @@
 import { Application, RequestHandler, Request, Response } from 'express';
 import http from 'http';
-import path from 'path';
+import Controller from './Controller';
+
+
 
 export default class Server {
   private app: Application;
@@ -14,6 +16,12 @@ export default class Server {
   public run(): http.Server {
     return this.app.listen(this.port, () => {
       console.log(`The server is running on port ${this.port}`)
+    });
+  };
+
+  public loadControllers(controllers: Array<Controller>): void {
+    controllers.forEach(controller => {
+      this.app.use(controller.path, controller.bindRoutes());
     });
   };
 }
