@@ -1,0 +1,35 @@
+{
+  "name": "object-recognition",
+  "version": "0.0.1",
+  "description": "Boilerplate for Express.JS + Vue.JS with Typescript",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "npm run build && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metehanakbaba/Object-Recognition"
+  },
+  "keywords": [
+    "object",
+    "recognation",
+    "express.js",
+    "boilerplate",
+    "vuejs",
+    "boilerplate"
+  ],
+  "author": "Metehan Akbaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metehanakbaba/Object-Recognition/issues"
+  },
+  "homepage": "https://github.com/metehanakbaba/Object-Recognition/#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
